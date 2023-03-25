@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <img src="{% static 'images/rcb.jpg' %}" alt="" style="top: auto;">
+    </center>
+    <center>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-secondary">1 <a href="{% url 'bootstrap_cdn' %}">....</a></button>
+    </center>
+</body>
+</html>
